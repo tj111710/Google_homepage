@@ -1,0 +1,175 @@
+div.text1{
+    display:inline-block;
+    color:gray;
+    font-family:Arial;
+    font-size:12px;
+    height:20px;
+    width:50px;
+    /*background-color:purple;*/
+    text-align:center;
+
+    margin-top:14px;
+    position:absolute;
+    left:78.5%;
+
+}
+
+div.text2{
+    display:inline-block;
+    color:gray;
+    font-family:Arial;
+    font-size:12px;
+    height:20px;
+    width:60px;
+    /*background-color:green;*/
+    text-align:center;
+
+    margin-top:14px;
+    position:absolute;
+    left:82.5%;
+}
+
+table{
+    display:inline-block;
+    background-color:white;
+	height:30px;
+	width:30px;
+	border:5px solid white;
+
+	margin-top:8px;
+    position:absolute;
+	left:87%;
+}
+table tr td{
+	background-color:gray;
+    height:2px;
+    width:10px;
+}
+
+
+
+div.signin{
+    display:inline-block;
+	height:20px;
+	width:80px;
+	border-radius: 5%;
+	background-color:#5BADFF;
+	margin-right:-20%;
+	text-align:center;
+	text-transform;
+	color:white;
+	font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:10px;
+	padding-top:5px;
+
+	margin-top:10px;
+    position:absolute;
+	left:90%;
+}
+
+img.display{
+	display: block;
+
+    height: 13%;
+    width:20%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -110%) 
+}
+
+p{
+	font-family:Arial;
+	margin-left:100px ;
+}
+
+/* Search Box Styling*/
+input {
+	width:500px;
+	/*display: block;
+    margin: 0;*/
+    height:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%) 
+}
+
+button.searchbutton{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-105%, 150%);
+
+    height:29px;
+    width: 150px;
+    line-height:27px;
+    background-color:#f2f2f2;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:2px;
+
+    font-weight:bold;
+    color: gray;
+
+}
+button.luckybutton{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(15%, 150%) ;
+
+    height:29px;
+    width: 150px;
+    line-height:27px;
+    background-color:#f2f2f2;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:2px;
+
+    font-weight:bold;
+    color: gray;
+}
+
+div.bottom-container{
+    width:99%;
+    height:40px;
+    background-color:#f2f2f2;
+    
+    position:fixed;
+    bottom:0px;
+
+    font-family:Helvetica;
+    color:green;
+
+}
+
+#rside{
+    float:right;
+    text-decoration:none;
+    padding: 13px;
+    padding-right:21px;
+    color:gray;
+    font-size:13px;
+}
+   
+#rside:hover {
+    text-decoration: underline;
+}
+
+#lside {
+    text-decoration:none;
+    padding: 13px;
+    padding-left:21px;
+    float:left;
+    color:gray;
+    font-size:13px;
+}
+
+#lside:hover {
+    text-decoration: underline;
+}
